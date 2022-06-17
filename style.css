@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lobster+Two:ital@1&family=Mrs+Saint+Delafield&family=Dancing+Script&family=Fascinate&family=Merienda:wght@700&family=Reenie+Beanie&display=swap');
 
+@media screen ((min-width: 320px) and (max-width: 480px)) {
+    #app {
+      width: 480px;
+    }
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
